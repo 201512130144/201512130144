@@ -18,7 +18,7 @@ jobs:
     steps:
       # 1. 生成 SVG 动画
       - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@v2.3.0
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
